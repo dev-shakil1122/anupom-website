@@ -35,13 +35,11 @@
 
     <!-- ===== HERO ===== -->
     <section id="hero">
-        <video autoplay muted loop playsinline class="hero-video-bg">
-            <source src="https://cdn.pixabay.com/video/2023/10/22/186121-877045763_large.mp4" type="video/mp4">
-            <!-- Fallback image/video can be placed here -->
-        </video>
-        <div class="hero-overlay"></div>
+        <div class="hero-bg-anim" id="bgAnim"></div>
+        <div class="pulse-ring"></div>
+        <div class="pulse-ring"></div>
         <div class="hero-container">
-            <div class="hero-center">
+            <div class="hero-left">
                 <div class="hero-badge animate-fade-up" style="animation-delay: 0.1s;"><i class="ti ti-map-pin"></i> Doha, Qatar — Since 2010</div>
                 <h1 class="hero-title animate-fade-up" style="animation-delay: 0.3s;">
                     Building Qatar's<br>
@@ -73,6 +71,58 @@
                     </div>
                 </div>
             </div>
+            <div class="hero-visual">
+                <div class="building-scene">
+                    <div class="building-wrap">
+                        <div class="bld bld-left">
+                            <div class="win-grid" style="grid-template-columns:repeat(2,1fr);top:15px">
+                                <div class="win" style="animation-delay:.2s"></div>
+                                <div class="win" style="animation-delay:.5s"></div>
+                                <div class="win" style="animation-delay:.8s"></div>
+                                <div class="win" style="animation-delay:.3s"></div>
+                                <div class="win" style="animation-delay:1.1s"></div>
+                                <div class="win" style="animation-delay:.7s"></div>
+                                <div class="win" style="animation-delay:.4s"></div>
+                                <div class="win" style="animation-delay:.9s"></div>
+                            </div>
+                        </div>
+                        <div class="bld bld-main">
+                            <div class="crane">
+                                <div class="crane-v"></div>
+                                <div class="crane-h">
+                                    <div class="crane-wire"></div>
+                                </div>
+                            </div>
+                            <div class="win-grid" style="grid-template-columns:repeat(3,1fr);top:60px">
+                                <div class="win" style="animation-delay:.1s"></div>
+                                <div class="win" style="animation-delay:.4s"></div>
+                                <div class="win" style="animation-delay:.7s"></div>
+                                <div class="win" style="animation-delay:.9s"></div>
+                                <div class="win" style="animation-delay:.2s"></div>
+                                <div class="win" style="animation-delay:.6s"></div>
+                                <div class="win" style="animation-delay:.5s"></div>
+                                <div class="win" style="animation-delay:.8s"></div>
+                                <div class="win" style="animation-delay:.3s"></div>
+                                <div class="win" style="animation-delay:1.2s"></div>
+                                <div class="win" style="animation-delay:.1s"></div>
+                                <div class="win" style="animation-delay:.9s"></div>
+                            </div>
+                        </div>
+                        <div class="bld bld-right">
+                            <div class="win-grid" style="grid-template-columns:repeat(2,1fr);top:20px">
+                                <div class="win" style="animation-delay:.6s"></div>
+                                <div class="win" style="animation-delay:.2s"></div>
+                                <div class="win" style="animation-delay:1s"></div>
+                                <div class="win" style="animation-delay:.4s"></div>
+                                <div class="win" style="animation-delay:.3s"></div>
+                                <div class="win" style="animation-delay:.8s"></div>
+                            </div>
+                        </div>
+                        <div class="bld bld-small"></div>
+                        <div class="ground"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -97,7 +147,7 @@
                         <div class="lbl">Certified Quality</div>
                     </div>
                 </div>
-                
+
                 <!-- Right: Intro & Stats -->
                 <div class="about-intro-wrap">
                     <div class="reveal">
@@ -111,7 +161,7 @@
                             efficiency and quality compliance.
                         </p>
                     </div>
-                    
+
                     <div class="stats-bar reveal">
                         <div class="stat-item">
                             <div class="n">200+</div>
@@ -132,7 +182,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Row 2: Core Identity Cards -->
             <div class="mv-grid reveal">
                 <div class="mv-card">
@@ -554,7 +604,8 @@
         <div class="cta-inner reveal">
             <div class="section-tag"
                 style="background:rgba(255,255,255,.12);color:#7ec8f5;border:1px solid rgba(255,255,255,.2);margin-bottom:20px;display:inline-flex">
-                <i class="ti ti-phone-call"></i> Let's Build Together</div>
+                <i class="ti ti-phone-call"></i> Let's Build Together
+            </div>
             <h2>Ready to Start Your Next Project in Qatar?</h2>
             <p>Whether it's a villa renovation, a commercial tower, an MEP installation, or a facility management
                 contract — Anupom is ready to deliver. Contact us today for a free consultation and competitive quote.
